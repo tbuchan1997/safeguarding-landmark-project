@@ -1,6 +1,6 @@
 # Safeguarding Information Hub
 
-[View live project here on GitHub]()
+[View live project here on GitHub](https://tbuchan1997.github.io/safeguarding-landmark-project/)
 
 The **Safeguarding Information Hub** is a digital resource dedicated to promoting awareness and best practices in safeguarding. Aimed at individuals, families, and communities seeking to understand and engage with safeguarding issues, the hub serves as an accessible platform for essential guidance and education. Beyond simply providing information, the **Safeguarding Information Hub** empowers users to take proactive steps in protecting themselves and others by offering resources on identifying and addressing potential risks. Through the use of practical advice, the hub fosters a collective responsibility towards safety and respect, creating a supportive, informed environment for everyone.
 
