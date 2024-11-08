@@ -1,131 +1,287 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Safeguarding Information Hub
 
-Welcome USER_NAME,
+[View live project here on GitHub]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The **Safeguarding Information Hub** is a digital resource dedicated to promoting awareness and best practices in safeguarding. Aimed at individuals, families, and communities seeking to understand and engage with safeguarding issues, the hub serves as an accessible platform for essential guidance and education. Beyond simply providing information, the **Safeguarding Information Hub** empowers users to take proactive steps in protecting themselves and others by offering resources on identifying and addressing potential risks. Through the use of practical advice, the hub fosters a collective responsibility towards safety and respect, creating a supportive, informed environment for everyone.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+<br>  
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![Screenshots of landing page on different devices:](/docs/screenshots
 
 ---
 
-Happy coding!
+## CONTENTS  
+  
+* [UXD (User Experience Design)](#user-experience-ux)
+- [User Stories](#user-stories)
+- [Further UX Considerations](#further-ux-considerations) 
+  
+* [Creation process (Strategy -> Surface)](#creation-process)
+- [Strategy](#strategy)
+- [Scope](#scope)
+- [Structural](#structural)
+- [Skeleton](#skeleton)
+- [Surface](#surface)
+- [Design](#design)
+ 
+* [Tablet & Mobile View](#tablet--mobile-view)
+ 
+* [Future Features](#future-features)
+* [Technologies Used](#technologies-used)
+  
+* [Deployment](#deployment)
+  
+* [Testing](#testing)
+
+---
+
+## User Experience (UX)  
+  
+### **User Stories**  
+
+As a user, I want to access a contact section with relevant details so that I can report safeguarding concerns quickly if needed.
+
+As a user, I want to see a bold and clear introductory message so that I immediately understand the importance of safeguarding when I land on the page.
+
+As a user, I want to quickly access key safeguarding principles so that I can understand what safeguarding involves and why it matters.
+
+As a site owner, I want to present a hero section with a bold heading and a relevant image or background so that the website immediately captures the user's attention and communicates the significance of safeguarding.
+
+As a user, I want to find a clear, step-by-step guide for recognizing and responding to safeguarding concerns so that I know what actions to take if I encounter a safeguarding issue.
+
+As a user, I want a color-coded visual hierarchy for different sections so that it is easier to follow the flow of information.
+
+
+### **Further UX Considerations**
+
+#### **1. Navigation Simplicity**
+- I intend to make the website with easy and intuitive navigation in mind. This is to ensure critical information can be found quickly without having to search around the website.
+- The layout has been chosen to help users locate content efficiently.
+
+#### **2. Responsive design**
+-The site will be optimised and tested for different screen sizes and browsers, starting from mobile (320px) first. This is to ensure readability and functionality across mobile, tablet and desktops.
+
+#### **3. Accessibility**
+
+- Accessibility features such as image alt text and ARIA labels will be incorporated throughout the site.
+-High contrast colour schemes and font sizing/family choices will enhance readability for visually impaired users.
+
+#### **4. Content Clarity and Structure**
+
+- The language used on this site will be clear and concise, which is important for conveying sensitive safeguarding information.
+- Content will be organised to present essential information clearly, with images interspersed to avoid overwhelming the user with blocks of text.
+
+#### **5. Feedback Mechanisms**
+
+- Interactive elements, such as forms and call to action buttons allow users to interact and encourages communication.
+
+#### **6. Consistency in Design**
+
+- A consistent use of fonts, colours and visual hierarchy across all pages will help the user become familiar with the layout, reducing cognitive overload.
+- This consistency aims to improve the UX by making navigation feel intuitive and predictable. 
+
+
+---
+
+These considerations contribute to a user-friendly experience, supporting the site's purpose of delivering important safeguarding information in an accessible and engaging way.
+   
+
+--- 
+
+
+## **Creation process (Strategy -> Surface)**
+
+### **1. Strategy**  
+
+
+- I required an easy-to-read, dependable website that delivers clear information about safeguarding and reporting in a clear and user friendly way.  
+- The website will be designed for mobile first (320px) and adjusted for key breakpoints for tablets, desktops and larger screens.
+- Target users for the site will be educators, parents and community members including less tech-savvy users seeking guidance so that will be kept in mind when planning the colour scheme and layout for the site.
+  
+
+### **2. Scope**  
+
+The Safeguarding information site must be available on a wide range of devices. 
+
+- The site is to contain only relevant information, presented in a consistent fashion and layout.   
+- Text must be clear, legible and high in contrast on any sized device to allow the user instant access to the menu, form and all information.  
+- A brief introduction to the purpose of the website to be included in the landing page.
+- Content will cover the 6 principles of safeguarding, how to identify a concern, how to report within your organisation, links to additional resources and a form for reporting a concern.
+  
+
+### **3. Structural**  
+
+It was requested that the design was straightforward, clear and easy to understand with the following features:
+ 
+- A hero section that quicky and clearly describe the purpose of the website.
+- Key information sections to be included covering the 6 principles on the landing page
+- A separate page with identifying and how to report
+- Another page with additional resources 
+- A form for reporting safeguarding concerns. 
+
+There will be a navigation structure with clear labels always visible, and a footer with contact information and social links on every page.
+
+  
+### **4. Skeleton**  
+
+The site was designed to be straightforward with details about safeguarding and reporting clearly signposted.  
+ 
+- A four-item navigation bar of 'Home', 'Identify', 'Resources' and 'Report a Concern', will at the top of the screen. An enlarge feature identifying the current page and colour change whether a cursor or touch was accurate.  On smaller screens the menu collapses into an accordion.
+- A large, clear image dominates the landing page. 
+- Centred in the image is a blurb explaining the purpose of the website.
+- Scrolling down the page introduces to slightly more in-depth overview of what safeguarding is.
+- The page ends with the footer with contact details and social media links.
+- For the contact page, the navigation bar and footer remain as before. There is a form with text, date, time inputs plus a dropdown menu and radio buttons.
+- For the identify page, the navigation and footer remain as before. Two sections are presented with explanatory headings. Underneath is detailed information regarding basic safeguarding procedures
+-The additional resources page has multiple cards to links to real organisations with blurb taken from their websites.
+
+### Wireframes  
+
+[Wireframes are available here](/docs/wireframes
+
+### **5. Surface**  
+ 
+- Two clean, sans-serif fonts, were used 'Lora' and 'Roboto'. Both of these are clear and nicely spaced making them readable for everyone.
+- Two separate sites will be created for light and dark modes for the users preference, accessible from the navbar.
+
+
+### **Design**
+- Colour scheme for the site (initial palettes generated by chatGPT, specific colour tones amended to fit my preference). The text colour was chosen to provide sufficient context:
+
+#### **Light Mode Palette**
+
+| Purpose              | Colour       | Hex       | Usage                                           |
+|----------------------|-------------|-----------|-------------------------------------------------|
+| **Primary**          | Blue        | `#2A7EDE` | Buttons, links, and highlights                  |
+| **Background**       | Off-White   | `#F9FAFB` | Main background for pages                       |
+| **Text Primary**     | Dark Gray   | `#333333` | Main text colour                                 |
+| **Secondary Accent** | Teal        | `#1B9A77` | Secondary buttons, icons, and emphasis elements |
+| **Warning/Error**    | Orange-Red  | `#FF7043` | Alerts, warnings, and error messages            |
+
+---
+
+#### **Dark Mode Palette**
+
+| Purpose              | Colour       | Hex       | Usage                                           |
+|----------------------|-------------|-----------|-------------------------------------------------|
+| **Primary**          | Light Blue  | `#42A5F5` | Buttons, links, and highlights                  |
+| **Background**       | Dark Gray   | `#121212` | Main background for pages                       |
+| **Text Primary**     | Light Gray  | `#E0E0E0` | Main text colour                                 |
+| **Secondary Accent** | Aqua        | `#26C6DA` | Secondary buttons, icons, and emphasis elements |
+| **Warning/Error**    | Light Red   | `#EF5350` | Alerts, warnings, and error messages            |
+
+---
+
+#### **Typography**
+
+[Google Fonts](https://fonts.google.com/) was used to import the fonts 'Roboto' and 'Lora'. I used Lora for headings and Roboto for the main content.
+
+---
+
+#### **Imagery**
+
+- I specifically chose to use AI generated images as a learning tool to help develop my prompting skills. The images are mainly there to texture the page and improving readability by breaking the text into more digestible blocks.
+
+---
+
+Overall, the design was intended and created to evoke a safe and professional environment.
+
+
+---
+
+## Tablet & Mobile View  
+ 
+### **Desktop, Tablet & Mobile Differences**  
+
+- To ensure responsivity I intend to use CSS flexbox and media queries to ensure responsivity across key breakpoints to ensure the site works on all screen sizes.
+  
+
+---  
+
+## **Testing**
+
+## Basic Tests
+
+| Test Category             | Description                                                             | Expected Outcome                                            | Successful? |
+|---------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------|-------------|
+| **Navigation**            | Verify that all menu links and buttons navigate to the correct pages.   | All links and buttons should direct to the intended pages.  |             |
+| **Responsiveness**        | Check the layout on various screen sizes (desktop, tablet, mobile).     | Layout should adjust properly on all devices and screen sizes. |             |
+| **Accessibility**         | Test keyboard navigation for all interactive elements.                  | Users should be able to navigate using only the keyboard.   |             |
+| **Colour Contrast**        | Ensure text has high contrast against background colours.                | Text should be legible, meeting WCAG contrast guidelines.   |             |
+| **Image Alt Text**        | Verify that all images have descriptive alt text for screen readers.    | Alt text should describe images meaningfully for users with visual impairments. |             |
+| **Form Validation**       | Check form inputs for required fields and proper error messages.        | Forms should provide clear error messages for invalid input. |             |
+| **Performance**           | Measure page load speed and ensure media loads efficiently.             | Pages should load quickly, and images should not delay rendering. |             |
+| **Link Accessibility**    | Ensure all links have meaningful text for screen readers.               | Links should be descriptive (no "click here" or "read more"). |             |
+| **Browser Compatibility** | Test site on popular browsers (Chrome, Firefox, Safari, Edge).          | Site should display correctly and function as expected on all tested browsers. |             |
+| **Security**              | Verify HTTPS is active, and sensitive data (if any) is secure.          | Site should use HTTPS, and sensitive information should be protected. |             |
+| **Content Consistency**   | Review site for consistent fonts, colours, and layout across pages.      | All pages should maintain a uniform look and feel.          |             |
+
+
+
+## Future Features  
+
+- Incorporate dark mode with JavaScript
+
+## Technologies Used    
+
+### **Languages Used**   
+
+- HTML5
+- CSS3
+
+### **Frameworks, Libraries, Technologies & Programs Used**  
+
+- Balsamiq - used to create wireframes
+- GitHub - used to save and store all files for this website  
+- Git - used for version control
+- Google Fonts - fonts were imported from here 
+- FontAwesome - icons and their associated kit were downloaded from here
+- Coolors - for accessibility contrast ratios  
+- Microsoft Dall-E - for AI image generation
+- ChatGPT - Initial content generation
+- Google Dev Tools - to debug and for testing responsiveness 
+- Google Lighthouse - for auditing the website
+- W3C Validator - for validating the HTML and CSS code 
+
+---   
+
+## Deployment
+
+### **How to deploy**  
+
+GitHub was used to deploy the website. These were the steps taken to acheive this:  
+
+1. Login to GitHub account
+2. Navigate to the project repository, safeguarding-project
+3. Click the Settings button near the top of the page
+4. In the left-hand menu, find and click on the Pages button
+5. In the Source section, choose 'main' from the drop-down, select branch menu
+6. Select 'root' from the drop-down folder menu
+7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
+
+
+### **Initial testing plan**
+
+I had planned for this site to be accessible and legible on all screen sizes. I used Chrome Dev Tools to test, adjust and debug in the early stages.
+
+### **Testing**    
+
+Testing took place throughout the entire build using Dev Tools on Firefox and on the above real-world devices.
+
+### **HTML Validation using W3C Validation**  
+
+ Code validation is available [here](/assets/validation)
+
+
+## Credits  
+  
+### **Content References**
+- All content templates are generated by [ChatGPT](https://chatgpt.com/), but amended and finalised by me.
+- [Code Institute](https://codeinstitute.net/ie/), [Codecademy](https://www.codecademy.com/) and [Free Code Camp](https://www.freecodecamp.org/) for their HTML/CSS learning material.
+- [W3Schools](https://www.w3schools.com/) for additional learning material.
+- [MDN Web Docs](https://developer.mozilla.org/) for tutorials on html and css.
+
+
+### **Media References**  
+  
+- [Microsoft Dalle.E](https://create.microsoft.com/en-us/features/ai-image-generator) Microsoft Dall.E for generating the AI images
