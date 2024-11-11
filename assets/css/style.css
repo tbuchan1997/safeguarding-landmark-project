@@ -190,6 +190,8 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
+    /* Navbar Styling */
+
     .navbar {
         height: 10vh;
         position: sticky;
@@ -238,6 +240,22 @@ footer {
     .navbar .navbar-content .nav-btn {
         margin-left: 20px;
     }    
+
+    /* Hero Section Styling */
+
+    #hero .container {
+        max-width: 800px;
+    }
+
+    #hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    #hero p {
+        font-size: 1.25rem;
+        line-height: 1.6;
+    }
 }
 
 
