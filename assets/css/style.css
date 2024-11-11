@@ -14,6 +14,7 @@
     --primary-color: #2A7EDE;
     --background-color: #F9FAFB;
     --text-primary-color: #333333;
+    --text-secondar-color: #f8f9fa;
     --secondary-accent: #1B9A77;
     --warning-error: #FF7043;
 }
@@ -105,6 +106,22 @@ body {
 .nav-btn:hover {
     background-color: var(--secondary-accent);
 }
+
+/* Hero Section Styles */
+
+#hero {
+    background: url(../images/hero2.png) no-repeat center center / cover;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--text-secondar-color);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4); /* Dark Overlay */
+    padding: 20px;
+}
+
+
 
 /* Footer Styles */
 
