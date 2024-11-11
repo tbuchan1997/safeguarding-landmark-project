@@ -10,18 +10,36 @@
     box-sizing: border-box;
 }
 
-/*Navbar styling*/
-
-.navbar-content {
-    font-family: "Roboto", sans-serif;
-    padding: 0 0 0 50px;
-    
+:root {
+    --primary-color: #2A7EDE;
+    --background-color: #F9FAFB;
+    --text-primary-color: #333333;
+    --secondary-accent: #1B9A77;
+    --warning-error: #FF7043;
 }
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-primary-color);
+    font-family: "Roboto", sans-serif;
+}
+
+/*Navbar styling*/
 
 .navbar {
     padding: 0 30px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
     height: 50vh;
+}
+
+.navbar a, .navbar-content ul li a, .navbar .home-btn {
+    color: var(--primary-color);
+}
+
+
+.navbar-content {
+    padding: 0 0 0 50px;
+    display: none;
 }
 
 .navbar ul {
@@ -50,11 +68,6 @@
     right: -40px;
 }
 
-.navbar-content {
-    display: none;
-    
-}
-
 
 
 #collapse:checked ~ .navbar-content {
@@ -80,6 +93,17 @@
 .nav-btn {
     margin-top: 10px;
     margin-left: 9px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: var(--secondary-accent);
 }
 
 /* Footer Styles */
