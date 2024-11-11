@@ -36,7 +36,9 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
-    
+    background-color: #fff;
+    display: flex;
+    align-items: center;
 }
 
 .navbar a, .navbar-content ul li a, .navbar .home-btn {
@@ -99,6 +101,8 @@ body {
     font-size: 24px;
     position: absolute;
     top: 5px;
+    color: var(--primary-color);
+    left: 20px;
 }
 
 .nav-btn {
@@ -144,6 +148,39 @@ body {
     font-size: 1rem;
     line-height: 1.4;
 }
+
+/* Main Body Styles */
+
+#what {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#what h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+.what-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.what-text {
+    max-width: 800px;
+    text-align: left;
+}
+
+.what-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Principles Section */
 
 /* Footer Styles */
 
@@ -204,7 +241,7 @@ footer {
 
     .navbar {
         height: 10vh;
-        position: sticky;
+        position: fixed;
     }
 
     .navbar .navbar-content {
@@ -265,6 +302,27 @@ footer {
     #hero p {
         font-size: 1.25rem;
         line-height: 1.6;
+    }
+
+    /* What is Safeguarding Styles */
+
+    .what-content {
+        flex-direction: row;
+        align-items: stretch;
+        text-align: left;
+    }
+
+    .what-text {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .what-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        
     }
 }
 
