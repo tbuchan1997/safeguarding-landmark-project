@@ -19,10 +19,9 @@
 }
 
 .navbar {
-    background-color: #fff;
     padding: 0 30px;
-    border-bottom: 3px solid #000;
     box-shadow: 1-x 2px 3px rgba(0, 0, 0, 0.2);
+    height: 50vh;
 }
 
 .navbar ul {
@@ -46,13 +45,61 @@
     padding: 10px 0 10px 50px;
     /*background-color: #000;*/
     width: 150px;
+    position: absolute;
+    top: 0px;
+    right: -40px;
 }
 
-input#collapse {
+.navbar-content {
+    display: none;
+    
+}
+
+
+
+#collapse:checked ~ .navbar-content {
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 100%;
+    height: 30vh;
+}
+
+#collapse {
     display: none;
 }
 
+.home-btn {
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+}
 
+.nav-btn {
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+
+
+
+
+/*Media Queries*/
+
+/*Laptop screens (768px and up)*/
+
+@media only screen and (min-width: 768px) {
+    .navbar-content {
+    display: block;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 100%;
+    height: 30vh;
+    }
+}
 
 
 
