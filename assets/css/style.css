@@ -121,7 +121,19 @@ body {
     padding: 20px;
 }
 
+#hero .container {
+    max-width: 100%;
+}
 
+#hero h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#hero p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
 
 /* Footer Styles */
 
