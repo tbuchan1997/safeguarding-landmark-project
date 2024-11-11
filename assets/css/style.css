@@ -119,7 +119,7 @@ body {
 /* Hero Section Styles */
 
 #hero {
-    background: url(../images/hero2.png) no-repeat center center / cover;
+    background: url(../images/hero2.webp) no-repeat center center / cover;
     min-height: 50vh;
     display: flex;
     align-items: center;
