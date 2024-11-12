@@ -248,6 +248,7 @@ a.nav-btn {
 .identify-section {
     padding: 3rem 0;
     background-color: #f9f9f9;
+    margin-top: 50px;
 }
 
 .identify-container {
@@ -543,8 +544,59 @@ footer {
         justify-content: space-between;
     }
 
+    .identify-section {
+        padding: 3rem 2rem;
+    }
+
+    .identify-text {
+        gap: 2rem;
+    }
+
+    .identify-text p {
+        font-size: 1.1rem;
+    }
 
 }
 
+/* Desktop Screens (> 992px) */
 
+@media only screen and (min-width: 992px) {
+    .identify-content {
+        flex-direction: row;
+        gap: 2rem;
+    }
 
+    .identify-text, .identify-img {
+        width: 50%;
+    }
+
+    .identify-text p {
+        margin-bottom: 1.5rem;
+    }
+
+    .identify-section {
+        padding: 4rem 2rem;
+    }
+}
+
+/* Wider Desktops (> 1200px) */
+
+@media only screen and (min-width: 1200px) {
+
+    .identify-container {
+        max-width: 1400px;
+    }
+
+    .identify-text p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+
+    .identify-section {
+        padding: 5rem 3rem;
+    }
+
+    .identify-img-content {
+        border-radius: 12px;
+    }
+}
