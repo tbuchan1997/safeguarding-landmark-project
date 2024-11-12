@@ -20,7 +20,7 @@
 <body>
     <nav>
         <div class="navbar">
-            <a href="#home" class="home-btn"><i class="fa-solid fa-house"></i></a>
+            <a href="index.html" class="home-btn"><i class="fa-solid fa-house"></i></a>
             <!--Copilot Generated basic list and button-->
             <div class="navbar-collapse">
                 <input type="checkbox" id="collapse">
@@ -39,7 +39,81 @@
         </div>
     </nav>
     <main>
+        <div class="form-container">
+            <h1 id="form-title">Report a Concern:</h1>
+            <form action="success.html" method="get" novalidate>
+                <div class="form-group">
+                    <label for="reporter_name">Your Name (Optional):</label>
+                    <input type="text" id="reporter_name" name="reporter_name" placeholder="Your name(Optional)">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email (Optional):</label>
+                    <input type="email" id="reporter_email" name="reporter_email" placeholder="Your email (Optional)">
+                </div>
+                <div class="form-group">
+                    <label for="incident_date">Date of Incident:</label>
+                    <input type="date" id="incident_date" name="incident_date">
+                    <div class="invalid-feedback">Please provide a valid date.</div>
+                </div>
+                <div class="form-group">
+                    <label for="incident_time">Time of Incident(if known):</label>
+                    <input type="time" id="incident_time" name="incident_time">
+                </div>
+                <div class="form-group">
+                    <label for="incident_location">Location of Incident:</label>
+                    <input type="text" id="incident_location" name="incident_location" placeholder="Location of Incident" required>
+                </div>
+                <div class="form-group">
+                    <label for="person_involved">Person(s) Involved (if known):</label>
+                    <input type="text" id="person_involved" name="person_involved" placeholder="Name of Person Involved (if known)">
+                </div>
+                <div class="form-group">
+                    <label for="relationship">Relationship to you (if any):</label>
+                    <input type="text" id="relationship" name="relationship" placeholder="Relationship to you (if any):">
+                </div>
+                <div class="form-group">
+                    <label for="concern_type">Type of Concern:</label>
+                    <select name="concern_type" id="concern_type" required>
+                        <option value="">Select Concern Type</option>
+                        <option value="physical_abuse">Physical Abuse</option>
+                        <option value="emotional_abuse">Emotional Abuse</option>
+                        <option value="sexual_abuse">Sexual Abuse</option>
+                        <option value="neglect">Neglect</option>
+                        <option value="financial_abuse">Financial Abuse</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="concern_description">Description of Concern:</label>
+                    <textarea name="concern_description" id="concern_description" placeholder="Please describe the concern in detail" rows="5" required></textarea>
 
+                </div>
+                <div class="form-group">
+                    <label>Have You Reported This to Anyone Else?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="reported_yes" name="reported_elsewhere" value="yes">
+                        <label for="reported_yes">Yes</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="no" name="reported_elsewhere" value="no">
+                        <label for="no">No</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="other_reports">If Yes, Who Have You Reported It to? (optional)</label>
+                    <input type="text" id="other_reports" name="other_reports" placeholder="Please specify (optional)"> 
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">I consent to the information being shared with the relevant authorities</label>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="captcha" name="captcha">
+                    <label for="captcha">I am not a robot</label>
+                </div>
+                <button type="submit" class="submit-btn">Submit Report</button>
+            </form>
+        </div>
     </main>
 
     <footer>
