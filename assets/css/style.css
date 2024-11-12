@@ -274,7 +274,7 @@ a.nav-btn {
 }
 
 .identify-text, .identify-img {
-    flex: 1 1 50%;
+    flex: 1 1 100%;
 }
 
 .identify-text p {
@@ -284,10 +284,16 @@ a.nav-btn {
     color: #333;
 }
 
+.identify-img {
+    display: flex;
+    justify-content: center;
+}
+
 .identify-img-content {
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
     height: auto;
+    min-height: 300px;
+    border-radius: 8px;
 }
 
 /* Respond Section Styling */
@@ -336,7 +342,7 @@ a.nav-btn {
 .respond-image {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    margin: auto 20px;
 }
 
 .respond-image1,
@@ -346,7 +352,7 @@ a.nav-btn {
 
     height: auto;
     border-radius: 8px;
-    margin-bottom: 1rem;
+    margin: auto 10px 1rem 10px;
 }
 
 /* Resources Page Styling */
@@ -763,6 +769,18 @@ footer {
 
     .principles-img3 {
         display: none;
+    }
+
+    /* Identify Section */
+
+    .identify-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .identify-img-content {
+        width: 50%;
+        height: auto;
     }
 
     /* Respond Section */
