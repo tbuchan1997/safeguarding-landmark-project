@@ -330,13 +330,15 @@ a.nav-btn {
 
 .respond-image {
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .respond-image1,
-.respond-image2 {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+.respond-image2,
+.respond-image3 {
+    width: 30%;
+
     height: auto;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -624,6 +626,9 @@ footer {
     .respond-text p {
         font-size: 1.1rem;
     }
+    .respond-image {
+        display: block;
+    }
 
 }
 
@@ -666,6 +671,12 @@ footer {
     .respond-text p {
         margin-bottom: 1.5rem;
     }
+
+    .respond-image1,
+    .respond-image2,
+    .respon-image3 {
+        width: 100%;
+    }
 }
 
 /* Wider Desktops (> 1200px) */
@@ -688,4 +699,21 @@ footer {
     .identify-img-content {
         border-radius: 12px;
     }
+
+    /* Respond Section */
+
+    .respond-section {
+        padding: 5rem 3rem;
+    }
+
+    .respond-container {
+        max-width: 1200px;
+    }
+
+    .respond-text p {
+        font-size: 1.2rem;
+        line-height: 1.75;
+    }
 }
+
+/* Extra  Screens (> 1400px) */
