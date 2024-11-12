@@ -63,8 +63,6 @@ a:hover {
 /*Navbar styling*/
 
 .navbar {
-    padding: 0 30px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 10vh;
     position: fixed;
@@ -80,17 +78,19 @@ a:hover {
     color: var(--light-text);
 }
 
-
 .navbar-content {
     padding: 0 0 0 50px;
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .navbar ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .navbar a {
@@ -142,20 +142,13 @@ a:hover {
 .nav-btn {
     margin: 10px 0 10px 9px;
     background-color: var(--secondary-accent);
+    width: 200px;
     color: var(--dark-text);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-}
-
-a.nav-btn {
-    color: var(--light-text);
-}
-
-.nav-btn:hover {
-    background-color: var(--primary-accent);
-    transform: scale(1.05);
+    text-align: center;
 }
 
 /* Hero Section Styles */
@@ -388,7 +381,7 @@ a.nav-btn {
 
 #resources-section {
     padding: 2rem 1rem;
-    background-color: var(--primary-background);
+    background-color: var(--secondary-background);
     color: var(--dark-text);
     margin-top: 50px;
 }
@@ -450,16 +443,17 @@ a.nav-btn {
 
 .form-container {
     max-width: 600px;
-    margin: 60px auto 0 auto;
+    margin: 80px auto 20px auto;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-
+    background-color: var(--secondary-background);
 }
 
 #form-title {
     text-align: center;
     margin-bottom: 20px;
+    color: var(--dark-text);
 }
 
 .form-group {
@@ -510,11 +504,11 @@ input:invalid + .invalid-feedback {
     display: block;
 }
 
-.submit-button {
+.submit-btn {
     width: 100%;
     padding: 10px;
     background-color: var(--secondary-accent);
-    color: #fff;
+    color: var(--light-text);
     border: none;
     border-radius: 4px;
     font-size: 1em;
@@ -549,6 +543,7 @@ input:invalid + .invalid-feedback {
 
 footer {
     text-align: center;
+    background-color: var(--secondary-background);
 }
 
 .footer-container {
@@ -569,6 +564,7 @@ footer {
     text-transform: uppercase;
     margin-bottom: 15px;
     font-size: 1.1rem;
+    color: var(--dark-text);
 }
 
 .footer-section ul {
@@ -582,6 +578,7 @@ footer {
 
 .footer-section ul li a {
     text-decoration: none;
+    color: var(--dark-text);
 }
 
 .footer-section ul li a:hover {
