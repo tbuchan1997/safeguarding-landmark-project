@@ -344,6 +344,34 @@ a.nav-btn {
     margin-bottom: 1rem;
 }
 
+/* Resources Page Styling */
+
+#resources-section {
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.resources-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.resources-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.resources-lead {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
 /* Report Page Styling */
 
 .form-container {
