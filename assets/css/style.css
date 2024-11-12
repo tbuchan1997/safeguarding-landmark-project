@@ -11,18 +11,53 @@
 }
 
 :root {
-    --primary-color: #2A7EDE;
-    --background-color: #F9FAFB;
-    --text-primary-color: #333333;
-    --text-secondar-color: #f8f9fa;
-    --secondary-accent: #1B9A77;
-    --warning-error: #FF7043;
+    
+    --primary-background: #FFEEDB;
+    --secondary-background: #FFD4A3;
+    --primary-accent: #F2994A;
+    --secondary-accent: #D37B5E;
+    --dark-text: #4A4A4A;
+    --light-text: #FFFFFF;
 }
 
 body {
-    background-color: var(--background-color);
-    color: var(--text-primary-color);
+    background-color: var(--primary-background);
+    color: var(--dark-text);
     font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-accent);
+}
+
+p {
+    color: var(--dark-text);
+}
+
+a {
+    color: var(--primary-accent);
+}
+
+a:hover {
+    color: var(--secondary-accent);
+}
+
+.secondary-text {
+    color: var(--light-text);
+}
+
+.warning {
+    color: var(--secondary-accent);
+}
+
+.button-primary {
+    background-color: var(--primary-accent);
+    color: var(--light-text);
+}
+
+.button-secondary {
+    background-color: var(--secondary-accent);
+    color: var(--light-text);
 }
 
 /*Navbar styling*/
@@ -36,13 +71,13 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
-    background-color: #fff;
+    background-color: var(--primary-accent);
     display: flex;
     align-items: center;
 }
 
 .navbar a, .navbar-content ul li a, .navbar .home-btn {
-    color: var(--primary-color);
+    color: var(--light-text);
 }
 
 
@@ -70,7 +105,6 @@ body {
     display: block;
     cursor: pointer;
     padding: 10px 0 10px 50px;
-    /*background-color: #000;*/
     width: 150px;
     position: absolute;
     top: 0px;
@@ -80,7 +114,7 @@ body {
 
 
 #collapse:checked ~ .navbar-content {
-    background-color: #fff;
+    background-color: var(--primary-accent);
     display: block;
     position: absolute;
     top: 10vh;
@@ -101,27 +135,26 @@ body {
     font-size: 24px;
     position: absolute;
     top: 5px;
-    color: var(--primary-color);
+    color: var(--secondary-accent);
     left: 20px;
 }
 
 .nav-btn {
     margin: 10px 0 10px 9px;
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: var(--secondary-accent);
+    color: var(--dark-text);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 a.nav-btn {
-    color: #fff;
+    color: var(--light-text);
 }
 
 .nav-btn:hover {
-    background-color: var(--secondary-accent);
+    background-color: var(--primary-accent);
     transform: scale(1.05);
 }
 
@@ -134,7 +167,6 @@ a.nav-btn {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--text-secondar-color);
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); /* Dark Overlay */
     padding: 20px;
     margin-top: 10vh;
@@ -152,6 +184,7 @@ a.nav-btn {
 #hero p {
     font-size: 1rem;
     line-height: 1.4;
+    color: var(--light-text);
 }
 
 /* Main Body Styles */
@@ -252,7 +285,7 @@ a.nav-btn {
 
 .identify-section {
     padding: 3rem 0;
-    background-color: #f9f9f9;
+    background-color: var(--primary-background);
     margin-top: 50px;
 }
 
@@ -281,7 +314,7 @@ a.nav-btn {
     margin-bottom: 1rem;
     line-height: 1.5;
     font-size: 1rem;
-    color: #333;
+    color: var(--dark-text);
 }
 
 .identify-img {
@@ -300,7 +333,7 @@ a.nav-btn {
 
 .respond-section {
     padding: 2rem 1rem;
-    background-color: #f0f5f9;
+    background-color: var(--primary-background);
 }
 
 .respond-container {
@@ -327,16 +360,12 @@ a.nav-btn {
     margin-bottom: 1rem;
     font-size: 1rem;
     line-height: 1.5;
-    color: #333;
+    color: var(--dark-text);
 }
 
 .respond-text ol {
     padding-left: 1rem;
     margin: 1rem 0;
-}
-
-.respond-text strong {
-    color: #007acc;
 }
 
 .respond-image {
@@ -359,8 +388,8 @@ a.nav-btn {
 
 #resources-section {
     padding: 2rem 1rem;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: var(--primary-background);
+    color: var(--dark-text);
     margin-top: 50px;
 }
 
@@ -373,7 +402,7 @@ a.nav-btn {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    color: #333;
+    color: var(--dark-text);
 }
 
 .resources-lead {
@@ -381,7 +410,7 @@ a.nav-btn {
     font-size: 1rem;
     margin-bottom: 2rem;
     line-height: 1.6;
-    color: #555;
+    color: var(--dark-text);
 }
 
 .resources-cards {
@@ -391,7 +420,7 @@ a.nav-btn {
 }
 
 .resource-card {
-    background-color: #fff;
+    background-color: var(--primary-background);
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -407,7 +436,6 @@ a.nav-btn {
 .resource-card-title {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-    color: #007acc;
 }
 
 .resource-card p {
@@ -415,7 +443,6 @@ a.nav-btn {
 }
 
 .resource-card a {
-    color: #007acc;
     text-decoration: none;
 }
 
@@ -486,7 +513,7 @@ input:invalid + .invalid-feedback {
 .submit-button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: var(--secondary-accent);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -495,7 +522,7 @@ input:invalid + .invalid-feedback {
 }
 
 .submit-button:hover {
-    background-color: #0056b3;
+    background-color: var(--primary-accent);
 }
 
 /* Success Page Styles */
@@ -509,12 +536,12 @@ input:invalid + .invalid-feedback {
 .success-title {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #333;
+    color: var(--dark-text);
 }
 
 .success-text {
     font-size: 1.25rem;
-    color: #555;
+    color: var(--dark-text);
     margin-bottom: 20px;
 }
 
