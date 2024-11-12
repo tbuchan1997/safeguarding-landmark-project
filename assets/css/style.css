@@ -245,6 +245,44 @@ a.nav-btn {
 
 /* Identify Page Styles */
 
+.identify-section {
+    padding: 3rem 0;
+    background-color: #f9f9f9;
+}
+
+.identify-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.identify-text {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.identify-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.identify-text, .identify-img {
+    flex: 1 1 50%;
+}
+
+.identify-text p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #333;
+}
+
+.identify-img-content {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
 
 
 
