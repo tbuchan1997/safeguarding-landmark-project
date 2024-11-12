@@ -285,7 +285,62 @@ a.nav-btn {
     height: auto;
 }
 
+/* Respond Section Styling */
 
+.respond-section {
+    padding: 2rem 1rem;
+    background-color: #f0f5f9;
+}
+
+.respond-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.respond-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.respond-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.respond-text {
+    width: 100%;
+}
+
+.respond-text p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.respond-text ol {
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+.respond-text strong {
+    color: #007acc;
+}
+
+.respond-image {
+    width: 100%;
+}
+
+.respond-image1,
+.respond-image2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
 
 /* Report Page Styling */
 
@@ -556,6 +611,20 @@ footer {
         font-size: 1.1rem;
     }
 
+    /* Respond Section */
+
+    .respond-section {
+        padding: 3rem 2rem;
+    }
+
+    .respond-paragraph {
+        gap: 2rem;
+    }
+
+    .respond-text p {
+        font-size: 1.1rem;
+    }
+
 }
 
 /* Desktop Screens (> 992px) */
@@ -576,6 +645,26 @@ footer {
 
     .identify-section {
         padding: 4rem 2rem;
+    }
+
+    /* Respond Section */
+
+    .respond-content {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .respond-text,
+    .respond-image {
+        width: 50%;
+    }
+
+    .respond-section {
+        padding: 4rem 2rem;
+    }
+
+    .respond-text p {
+        margin-bottom: 1.5rem;
     }
 }
 
