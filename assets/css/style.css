@@ -182,6 +182,44 @@ body {
 
 /* Principles Section */
 
+.principles-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.principles-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+/* Stack content into single column for mobile */
+
+.principles-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.principles-text-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Image gallery Styling*/
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
 /* Footer Styles */
 
 footer {
@@ -324,6 +362,28 @@ footer {
         flex: 1;
         
     }
+
+    /* Principles Styling */
+
+    .principles-content {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .principles-text-content, .image-gallery {
+        flex: 1;
+    }
+
+    .image-gallery {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* Alternate image for staggered look */
+
+    
+
+
 }
 
 
