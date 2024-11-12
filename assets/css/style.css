@@ -423,10 +423,11 @@ a.nav-btn {
 
 .form-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 60px auto 0 auto;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 #form-title {
