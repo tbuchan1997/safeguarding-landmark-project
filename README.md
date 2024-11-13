@@ -38,7 +38,7 @@ The **Safeguarding Information Hub** is a digital resource dedicated to promotin
   - [What Went Well](#www)
   - [Even Better If](#ebi)
  
-* [Validations & Audit](#html-validation)
+* [Validations & Audit](#html-and-css-validation-using-w3c-validation)
 
 ---
 
