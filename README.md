@@ -291,6 +291,10 @@ I did use AI to good effect in generating the form elements in the report page, 
 
  Code validation is available [here](/docs/validations)
 
+### **Lighthouse Audit**
+
+Lighthouse website audit is available [here:](/docs/auditing)
+
 
 ## Credits  
   
