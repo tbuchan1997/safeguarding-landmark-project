@@ -72,17 +72,23 @@ a:hover {
     background-color: var(--primary-accent);
     display: flex;
     align-items: center;
+    padding: 0 20px;
 }
 
 .navbar a, .navbar-content ul li a, .navbar .home-btn {
     color: var(--light-text);
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--light-text);
 }
 
 .navbar-content {
-    padding: 0 0 0 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: none;
     width: 100%;
 }
 
@@ -115,7 +121,9 @@ a:hover {
 
 #collapse:checked ~ .navbar-content {
     background-color: var(--primary-accent);
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     position: absolute;
     top: 10vh;
     left: 0;
@@ -213,8 +221,8 @@ a:hover {
 }
 
 .what-image img {
-    width: auto;
-    height: 100%;
+    width: 600px;
+    height: 400px;
     max-width: 100%;
     border-radius: 5px;
 }
