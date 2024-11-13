@@ -241,7 +241,8 @@ Overall, the design was intended and created to evoke a safe and professional en
 - ChatGPT - Initial content generation
 - Google Dev Tools - to debug and for testing responsiveness 
 - Google Lighthouse - for auditing the website
-- W3C Validator - for validating the HTML and CSS code 
+- W3C Validator - for validating the HTML and CSS code
+- https://favicon.io - for favicon generation
 
 ---   
 
