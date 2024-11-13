@@ -40,6 +40,8 @@ The **Safeguarding Information Hub** is a digital resource dedicated to promotin
  
 * [Validations & Audit](#html-and-css-validation-using-w3c-validation)
 
+* [Credits](#credits)
+
 ---
 
 ## User Experience (UX)  
