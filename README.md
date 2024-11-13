@@ -146,7 +146,7 @@ The site was designed to be straightforward with details about safeguarding and 
 
 ### Wireframes  
 
-[Wireframes are available here](/docs/wireframes
+[Wireframes are available here](/docs/wireframes)
 
 ### **5. Surface**  
  
