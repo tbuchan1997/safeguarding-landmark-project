@@ -267,11 +267,11 @@ I had planned for this site to be accessible and legible on all screen sizes. I 
 
 ### **Testing**    
 
-Testing took place throughout the entire build using Dev Tools on Firefox and on the above real-world devices.
+Testing took place throughout the entire build using Dev Tools on Firefox and on several real-world devices available for simulation on devTools.
 
 ### **HTML Validation using W3C Validation**  
 
- Code validation is available [here](/assets/docs/validations)
+ Code validation is available [here](/docs/validations)
 
 
 ## Credits  
