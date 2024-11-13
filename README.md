@@ -217,7 +217,9 @@ Need to further work on sizing images and optimising the top fold of the website
 ## Future Features  
 
 - Incorporate dark mode with JavaScript
-
+- Further optimisation needed. Images need more efficiently sizing in particular.
+- Make the CAPTCHA real
+  
 ## Technologies Used    
 
 ### **Languages Used**   
