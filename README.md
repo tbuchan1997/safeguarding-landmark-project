@@ -157,23 +157,12 @@ The site was designed to be straightforward with details about safeguarding and 
 
 | Purpose              | Colour       | Hex       | Usage                                           |
 |----------------------|-------------|-----------|-------------------------------------------------|
-| **Primary**          | Blue        | `#2A7EDE` | Buttons, links, and highlights                  |
-| **Background**       | Off-White   | `#F9FAFB` | Main background for pages                       |
-| **Text Primary**     | Dark Gray   | `#333333` | Main text colour                                 |
-| **Secondary Accent** | Teal        | `#1B9A77` | Secondary buttons, icons, and emphasis elements |
-| **Warning/Error**    | Orange-Red  | `#FF7043` | Alerts, warnings, and error messages            |
-
----
-
-#### **Dark Mode Palette**
-
-| Purpose              | Colour       | Hex       | Usage                                           |
-|----------------------|-------------|-----------|-------------------------------------------------|
-| **Primary**          | Light Blue  | `#42A5F5` | Buttons, links, and highlights                  |
-| **Background**       | Dark Gray   | `#121212` | Main background for pages                       |
-| **Text Primary**     | Light Gray  | `#E0E0E0` | Main text colour                                 |
-| **Secondary Accent** | Aqua        | `#26C6DA` | Secondary buttons, icons, and emphasis elements |
-| **Warning/Error**    | Light Red   | `#EF5350` | Alerts, warnings, and error messages            |
+| **Primary Background**          | Off White        | `#FFEEDB` | Main background of the pages                  |
+| **Secondary Background**       | Light Peach   | `#FFD4A3` | Main background content on pages                       |
+| **Primary Accent**     | Orange   | `#F2994A` | Colour for navbar, footer                               |
+| **Secondary Accent** | Darker Orange        | `#D37B5E` | Secondary buttons, icons, and emphasis elements |
+| **Light Text**    | White | `#FFFFFF` | Text colour for darker backgrounds          |
+| **Dark Text**    | Gray  | `#4A4A4A` | Text colour for lighter backgrounds           |
 
 ---
 
