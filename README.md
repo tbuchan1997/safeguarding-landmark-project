@@ -6,7 +6,7 @@ The **Safeguarding Information Hub** is a digital resource dedicated to promotin
 
 <br>  
 
-![Screenshots of landing page on different devices:](/docs/screenshots
+![Screenshots of site pages on different devices:](/docs/mockups)
 
 ---
 
@@ -33,7 +33,7 @@ The **Safeguarding Information Hub** is a digital resource dedicated to promotin
   
 * [Testing](#testing)
 
-* [Learning Feedback](#learning-feedback)
+* [Learning Points](#learning-points)
   - [Use of AI](#use-of-ai)
   - [What Went Well](#www)
   - [Even Better If](#ebi)
