@@ -209,17 +209,19 @@ Overall, the design was intended and created to evoke a safe and professional en
 
 | Test Category             | Description                                                             | Expected Outcome                                            | Successful? |
 |---------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------|-------------|
-| **Navigation**            | Verify that all menu links and buttons navigate to the correct pages.   | All links and buttons should direct to the intended pages.  |             |
-| **Responsiveness**        | Check the layout on various screen sizes (desktop, tablet, mobile).     | Layout should adjust properly on all devices and screen sizes. |             |
-| **Accessibility**         | Test keyboard navigation for all interactive elements.                  | Users should be able to navigate using only the keyboard.   |             |
-| **Colour Contrast**        | Ensure text has high contrast against background colours.                | Text should be legible, meeting WCAG contrast guidelines.   |             |
-| **Image Alt Text**        | Verify that all images have descriptive alt text for screen readers.    | Alt text should describe images meaningfully for users with visual impairments. |             |
-| **Form Validation**       | Check form inputs for required fields and proper error messages.        | Forms should provide clear error messages for invalid input. |             |
-| **Performance**           | Measure page load speed and ensure media loads efficiently.             | Pages should load quickly, and images should not delay rendering. |             |
-| **Link Accessibility**    | Ensure all links have meaningful text for screen readers.               | Links should be descriptive (no "click here" or "read more"). |             |
-| **Browser Compatibility** | Test site on popular browsers (Chrome, Firefox, Safari, Edge).          | Site should display correctly and function as expected on all tested browsers. |             |
-| **Security**              | Verify HTTPS is active, and sensitive data (if any) is secure.          | Site should use HTTPS, and sensitive information should be protected. |             |
-| **Content Consistency**   | Review site for consistent fonts, colours, and layout across pages.      | All pages should maintain a uniform look and feel.          |             |
+| **Navigation**            | Verify that all menu links and buttons navigate to the correct pages.   | All links and buttons should direct to the intended pages.  |      yes       |
+| **Responsiveness**        | Check the layout on various screen sizes (desktop, tablet, mobile).     | Layout should adjust properly on all devices and screen sizes. |     yes     |
+| **Accessibility**         | Test keyboard navigation for all interactive elements.                  | Users should be able to navigate using only the keyboard.   |        yes     |
+| **Colour Contrast**        | Ensure text has high contrast against background colours.                | Text should be legible, meeting WCAG contrast guidelines.   |       yes      |
+| **Image Alt Text**        | Verify that all images have descriptive alt text for screen readers.    | Alt text should describe images meaningfully for users with visual impairments. |    yes         |
+| **Form Validation**       | Check form inputs for required fields and proper error messages.        | Forms should provide clear error messages for invalid input. |         yes    |
+| **Performance**           | Measure page load speed and ensure media loads efficiently.             | Pages should load quickly, and images should not delay rendering. |     no        |
+| **Link Accessibility**    | Ensure all links have meaningful text for screen readers.               | Links should be descriptive (no "click here" or "read more"). |       yes      |
+| **Browser Compatibility** | Test site on popular browsers (Chrome, Firefox, Safari, Edge).          | Site should display correctly and function as expected on all tested browsers. |      yes (chrome and firefox)       |
+
+| **Content Consistency**   | Review site for consistent fonts, colours, and layout across pages.      | All pages should maintain a uniform look and feel.          |        yes     |
+
+Need to further work on sizing images and optimising the top fold of the website to improve performance.
 
 
 
@@ -248,6 +250,7 @@ Overall, the design was intended and created to evoke a safe and professional en
 - Google Lighthouse - for auditing the website
 - W3C Validator - for validating the HTML and CSS code
 - https://favicon.io - for favicon generation
+- https://www.toptal.com/developers/cssminifier - for CSS file compression
 
 ---   
 
