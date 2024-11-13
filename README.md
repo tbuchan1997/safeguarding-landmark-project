@@ -208,7 +208,7 @@ Overall, the design was intended and created to evoke a safe and professional en
 | **Link Accessibility**    | Ensure all links have meaningful text for screen readers.               | Links should be descriptive (no "click here" or "read more"). |       yes      |
 | **Browser Compatibility** | Test site on popular browsers (Chrome, Firefox, Safari, Edge).          | Site should display correctly and function as expected on all tested browsers. |      yes (chrome and firefox)       |
 
-| **Content Consistency**   | Review site for consistent fonts, colours, and layout across pages.      | All pages should maintain a uniform look and feel.          |        yes     |
+| **Content Consistency**   | Review site for consistent fonts, colours, and layout across pages.     | All pages should maintain a uniform look and feel. |        yes     |
 
 Need to further work on sizing images and optimising the top fold of the website to improve performance.
 
