@@ -271,7 +271,7 @@ Testing took place throughout the entire build using Dev Tools on Firefox and on
 
 ### **HTML Validation using W3C Validation**  
 
- Code validation is available [here](/assets/validation)
+ Code validation is available [here](/assets/docs/validations)
 
 
 ## Credits  
