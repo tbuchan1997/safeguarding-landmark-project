@@ -33,6 +33,11 @@ The **Safeguarding Information Hub** is a digital resource dedicated to promotin
   
 * [Testing](#testing)
 
+* [Learning Feedback](#learning-feedback)
+  - [Use of AI](#use-of-ai)
+  - [What Went Well](#www)
+  - [Even Better If](#ebi)
+
 ---
 
 ## User Experience (UX)  
@@ -263,13 +268,32 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 
 ### **Initial testing plan**
 
-I had planned for this site to be accessible and legible on all screen sizes. I used Chrome Dev Tools to test, adjust and debug in the early stages.
+I planned for this site to be accessible and legible on all screen sizes. I will use Chrome Dev Tools to test, adjust and debug in the early stages.
 
 ### **Testing**    
 
 Testing took place throughout the entire build using Dev Tools on Firefox and on several real-world devices available for simulation on devTools.
 
-### **HTML Validation using W3C Validation**  
+### **Learning Points** 
+
+#### **Use of AI**
+
+I tried to use AI to generate html and css on the procedures page, but the choice in classes used were very counterintuitive and hard to manage adapting the CSS for breakpoints and responsiveness so I ended up rewriting the majority of the code. In future I will primarily use AI for generating the more tedious/repetitive code to write manually (such as lists and forms), but maintain classes and IDs by myself to make CSS styling easier.
+
+I did use AI to good effect in generating the form elements in the report page, but I limited it to html only and I subsequently went through and styled myself.
+
+#### **What Went Well & Even Better If**
+##### **WWW**
+- The website does what I intended, is clear and intuitive.
+- The colour scheme is understated and matches the vibe of the site.
+- The form section was a really effective use of AI.
+
+##### **EBI**
+- Use AI more efficiently - Generate feature templates with AI (e.g. navbars, forms etc) and adjust to how I want them.
+- Good enough is good enough - Lost too much time styling the navbar and footer trying to make them perfect (which they aren't) before moving on - had to rush parts later on.
+- Make the project manageable - Overcommitted content wise and should have hit the key assessment points very well, then moved onto nice-to-haves. Plan basic page structure and classes/IDs in more detail to help with CSS.
+
+### **HTML and CSS Validation using W3C Validation**  
 
  Code validation is available [here](/docs/validations)
 
